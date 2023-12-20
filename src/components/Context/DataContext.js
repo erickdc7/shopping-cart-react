@@ -18,7 +18,7 @@ const DataProvider = ({ children }) => {
         } else {
             setCart([...cart, product])
         }
-    };
+    }
 
     return (
         <dataContext.Provider value={{ cart, setCart, buyProducts }}>
