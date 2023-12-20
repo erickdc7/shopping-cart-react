@@ -11,7 +11,7 @@ const DataProvider = ({ children }) => {
     }, [])
 
     return (
-        <dataContext.Provider>
+        <dataContext.Provider value={{ data }}>
             {children}
         </dataContext.Provider>
     )
