@@ -34,11 +34,17 @@
 /*total items*/
 .cart-items-total {
   background-color: red;
+  width: 20px;
+  height: 20px;
   color: white;
   border-radius: 50%;
   font-size: 12px;
-  padding: 4px;
-  top: 37px;
-  right: 14px;
+  text-align: center;
+  top: 50px;
+  right: 15px;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
