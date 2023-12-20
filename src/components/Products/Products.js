@@ -11,7 +11,7 @@ const Products = () => {
                 <div className="card">
                     <img src={product.img} alt={product.name} />
                     <h3>{product.name}</h3>
-                    <h4>{product.price}</h4>
+                    <h4>${product.price}</h4>
                     <button>Buy</button>
                 </div>
             )
