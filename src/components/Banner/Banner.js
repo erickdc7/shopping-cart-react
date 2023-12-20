@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="banner">
             <div className="banner-container">
                 <h1>Books Shop</h1>
-                <p>The best place to find you books</p>
+                <p>The best place to find your favorite books</p>
             </div>
         </div>
     )
