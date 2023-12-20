@@ -2,7 +2,12 @@ import "./Banner.css"
 
 const Banner = () => {
     return (
-        <div>Banner</div>
+        <div className="banner">
+            <div className="banner-container">
+                <h1>Books Shop</h1>
+                <p>The best place to find you books</p>
+            </div>
+        </div>
     )
 }
 
