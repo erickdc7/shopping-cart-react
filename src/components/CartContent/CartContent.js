@@ -1,8 +1,13 @@
 import "./CartContent.css"
+import CartElements from "./CartElements"
+import CartTotal from "./CartTotal"
 
 const CartContent = () => {
     return (
-        <div>CartContent</div>
+        <>
+            <CartElements />
+            <CartTotal />
+        </>
     )
 }
 

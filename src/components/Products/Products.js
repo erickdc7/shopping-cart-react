@@ -1,26 +1,26 @@
-import { useContext } from "react"
-import { dataContext } from "../Context/DataContext"
-import "./Products.css"
+import { useContext, useState, useEffect } from "react";
+import { dataContext } from "../Context/DataContext";
+import axios from "axios";
+import "./Products.css";
 
 const Products = () => {
-    const { data, cart, setCart } = useContext(dataContext)
+    const [data, setData] = useState([])
+    const { buyProducts } = useContext(dataContext)
 
-    const buyProducts = (product) => {
-        setCart([...cart, product])
-    }
+    useEffect(() => {
+        axios("data.json").then((res) => setData(res.data))
+    }, [])
 
-    return (
-        data.map((product) => {
-            return (
-                <div className="card" key={product.id}>
-                    <img src={product.img} alt={product.name} />
-                    <h3>{product.name}</h3>
-                    <h4>${product.price}</h4>
-                    <button onClick={() => buyProducts(product)}>Buy</button>
-                </div>
-            )
-        })
-    )
-}
+    return data.map((product) => {
+        return (
+            <div className='card' key={product.id}>
+                <img src={product.img} alt={product.name} />
+                <h3>{product.name}</h3>
+                <h4>${product.price}</h4>
+                <button onClick={() => buyProducts(product)}>Buy</button>
+            </div>
+        );
+    });
+};
 
-export default Products
+export default Products;
