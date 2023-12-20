@@ -1,3 +1,4 @@
+import TotalItems from "../CartContent/TotalItems";
 import "./Navbar.css"
 import { Link } from "react-router-dom";
 
@@ -6,7 +7,9 @@ const Navbar = () => {
         <div className="nav-container">
             <nav className="navbar">
                 <h1 className="navbar-logo">Shop.</h1>
-                <Link className="seeCarrito" to={"/cart"}>🛒</Link>
+                <Link className="seeCarrito" to={"/cart"}>
+                    🛒 <TotalItems />
+                </Link>
             </nav>
         </div>
     );
