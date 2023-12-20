@@ -1,34 +1,34 @@
 [
     {
         "id": 1,
-        "name": "On The Road",
-        "author": "Jack Kerouac",
+        "name": "Dune",
+        "author": "Frank Herbert",
         "price": 10,
-        "img": "https://imgs.search.brave.com/PG6VRGVRdd1tat50p4zbkf4eZejQVmLSXnyikv6sZfQ/rs:fit:346:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/eGVESlRoNnNFWDZk/VXhhcjJnTkNnSGFL/SiZwaWQ9QXBp",
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/86/9f/869fa8cf3c087c954b6a3b7293c31469.jpg",
         "quanty": 1
     },
     {
         "id": 2,
-        "name": "The Subterraneans",
-        "author": "Jack Kerouac",
+        "name": "1984",
+        "author": "George Orwell",
         "price": 20,
-        "img": "https://imgs.search.brave.com/PG6VRGVRdd1tat50p4zbkf4eZejQVmLSXnyikv6sZfQ/rs:fit:346:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/eGVESlRoNnNFWDZk/VXhhcjJnTkNnSGFL/SiZwaWQ9QXBp",
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/ab/54/ab54a82815e061d7fc8f22bcd22f2605.jpg",
         "quanty": 1
     },
     {
         "id": 3,
-        "name": "Indian Journals",
-        "author": "Allen Ginsberg",
+        "name": "Un mundo feliz",
+        "author": "Aldoys Huxley",
         "price": 27,
-        "img": "https://imgs.search.brave.com/PG6VRGVRdd1tat50p4zbkf4eZejQVmLSXnyikv6sZfQ/rs:fit:346:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/eGVESlRoNnNFWDZk/VXhhcjJnTkNnSGFL/SiZwaWQ9QXBp",
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/0a/2c/0a2cee31d416d14bc544c3434570a782.jpg",
         "quanty": 1
     },
     {
         "id": 4,
-        "name": "Iron Horse",
-        "author": "Allen Ginsberg",
+        "name": "Solaris",
+        "author": "Stanislaw Lem",
         "price": 18,
-        "img": "https://imgs.search.brave.com/PG6VRGVRdd1tat50p4zbkf4eZejQVmLSXnyikv6sZfQ/rs:fit:346:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/eGVESlRoNnNFWDZk/VXhhcjJnTkNnSGFL/SiZwaWQ9QXBp",
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/28/6e/286edbb13588354d063543903fc95aa3.jpg",
         "quanty": 1
     }
 ]
