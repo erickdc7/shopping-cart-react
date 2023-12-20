@@ -10,7 +10,9 @@ const Navbar = () => {
     return (
         <div className="nav-container">
             <nav className="navbar">
-                <h1 className="navbar-logo">Shop.</h1>
+                <Link to={"/"}>
+                    <h1 className="navbar-logo">Shop.</h1>
+                </Link>
                 <Link className="seeCarrito" to={"/cart"}>
                     🛒
                     {
